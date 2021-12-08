@@ -1,0 +1,50 @@
+body {
+    background-color: #f7f7f7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 70%;
+    margin: auto;
+}
+
+#title {
+    color: #505050;
+    text-transform: uppercase;
+}
+
+#profile_pic {
+    border-radius: 50%;
+}
+
+.subtitle {
+    font-size: 22px;
+}
+
+.post {
+    background-color: #fff;
+    padding: 0.5em;
+    border: 3px solid rgb(192, 192, 192);
+    border-radius: 0.5em;
+    margin: 10px;
+}
+
+.post_title, .post_content {
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.post_content {
+    text-align: justify;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+}
+
+.contacts {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.contacts li a {
+    color: #505050;
+}
